@@ -122,7 +122,7 @@ function App() {
 
             <div className="row ce_button">
               <CalcButton
-                onClick={(e) => dispatch(clearDisplay())}
+                onClick={() => dispatch(clearDisplay())}
                 value={"CE"}
               />
             </div>
